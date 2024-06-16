@@ -18,6 +18,7 @@ body {
   min-width: 375px;
   line-height: 1.5;
   letter-spacing: 0.05em;
+  font-family: sans-serif;
   color: $black;
   background-color: $white;
   -ms-font-feature-settings: "normal";
@@ -64,8 +65,6 @@ img {
     .header__headline {
       .header__ruby {
         font-size: 20px;
-        .header__rp {
-        }
         .header__rt {
           font-size: 10px;
           font-weight: normal;

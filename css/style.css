@@ -13,6 +13,7 @@ body {
   min-width: 375px;
   line-height: 1.5;
   letter-spacing: 0.05em;
+  font-family: sans-serif;
   color: #333;
   background-color: #fafafa;
   -ms-font-feature-settings: "normal";
