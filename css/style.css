@@ -89,8 +89,8 @@ img {
 .header .header__contents .header__headline .header__ruby .header__rt {
   font-size: 10px;
   font-weight: normal;
-  -webkit-transform: translateY(-6px);
-          transform: translateY(-6px);
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
 }
 
 .header .header__contents .header__nav .nav__list .nav__item {
@@ -191,7 +191,6 @@ main {
 .section .section__list .section__item .section__link .section__label {
   margin-bottom: 6px;
   font-size: 14px;
-  font-weight: bold;
 }
 
 .section .section__list .section__item .section__link .section__description {
