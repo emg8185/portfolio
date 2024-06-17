@@ -3,6 +3,7 @@
 $black: #333;
 $white: #fafafa;
 $gray: #52636f;
+$lightgray: #e0e0e1;
 
 * {
   margin: 0;
@@ -48,6 +49,7 @@ img {
   width: 100%;
   min-height: 72px;
   background-color: $white;
+  border-bottom: 1px solid $lightgray;
   @media screen and (min-width: 768px) {
     min-height: 96px;
   }
@@ -65,10 +67,11 @@ img {
     .header__headline {
       .header__ruby {
         font-size: 20px;
+        font-weight: 600;
         .header__rt {
           font-size: 10px;
           font-weight: normal;
-          transform: translateY(-4px);
+          transform: translateY(-2px);
         }
       }
     }
@@ -109,21 +112,25 @@ main {
     margin-bottom: 24px;
     text-align: center;
     font-size: 20px;
+    font-weight: 600;
     @media screen and (min-width: 768px) {
       margin-bottom: 36px;
       font-size: 30px;
     }
   }
   .section__list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: stretch;
+    @media screen and (min-width: 768px) {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: stretch;
+    }
     .section__item {
-      width: calc(50% - 6px);
+      margin-bottom: 12px;
       @media screen and (min-width: 768px) {
         width: calc(50% - 24px);
+        margin-bottom: 0;
       }
       .section__link {
         &:hover {
@@ -180,6 +187,7 @@ main {
       .section__data-headline {
         margin-bottom: 20px;
         font-size: 14px;
+        font-weight: 600;
         @media screen and (min-width: 768px) {
           margin-bottom: 24px;
           text-align: center;
@@ -231,6 +239,7 @@ main {
 .footer {
   padding: 24px;
   text-align: center;
+  border-top: 1px solid $lightgray;
   .footer__copy {
     font-size: 10px;
     color: $gray;
