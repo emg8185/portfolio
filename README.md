@@ -1,6 +1,6 @@
 # 川口正太のポートフォリオ
 
-![ポートフォリオのスクリーンショット](https://emg8185.github.io/portfolio/screenshot.png)
+![ポートフォリオのスクリーンショット](https://emg8185.github.io/portfolio/img/screenshot.png)
 
 ## 概要
 
